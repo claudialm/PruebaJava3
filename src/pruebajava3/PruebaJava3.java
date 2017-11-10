@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package pruebajava3;
+import interfaces.interfaz;
+import javax.swing.JFrame;
 
 /*******************************************************************************
  *Claudia Veas M.
@@ -20,7 +22,10 @@ public class PruebaJava3
      */
     public static void main(String[] args) 
     {
-        // TODO code application logic here
+         Interfaz w = new interfaz();
+        w.setVisible(true);
+        w.setBounds(0, 0, 400, 400);
+        w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
    
     }
     

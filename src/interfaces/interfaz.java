@@ -14,7 +14,7 @@ import java.sql.SQLException;
  */
 public class interfaz 
 {
-    private static interfaz inter;//Objeto tipo Connection
+    private static interfaz inter;
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String USER = "root";
     private static final String PASS = "";
