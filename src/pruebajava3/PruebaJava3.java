@@ -5,17 +5,23 @@
  */
 package pruebajava3;
 
-/**
- *
+/*******************************************************************************
+ *Claudia Veas M.
  * @author LAB03
+ * Fecha: Noviembre 10 de 2017
+ * Programa: PruebaJava3
+ * Responsabilidad: Clase Principal
  */
-public class PruebaJava3 {
+public class PruebaJava3 
+{
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // TODO code application logic here
+   
     }
     
 }
