@@ -22,7 +22,7 @@ public class PruebaJava3
      */
     public static void main(String[] args) 
     {
-         Interfaz w = new interfaz();
+         Interfaces w = new interfaces();
         w.setVisible(true);
         w.setBounds(0, 0, 400, 400);
         w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

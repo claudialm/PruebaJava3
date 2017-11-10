@@ -7,7 +7,7 @@ package interfaces;
 import javax.swing.*;
 import java.awt.*;
 
-import bd.conexionBD3;
+import interfaces.conexionBD3;
 import java.sql.Connection;
 import java.awt.event.*;
 /**
@@ -24,7 +24,7 @@ public class conexionBD3 extends JFrame
 
     conexionBD3 con;
 
-     public Interfaz()
+     public conexionBD3()
     {
         panel = new JPanel();
         label = new JLabel();
