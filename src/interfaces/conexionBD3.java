@@ -4,9 +4,8 @@
  * and open the template in the editor.
  */
 package interfaces;
-import interfaces.conexionBD3;
-import javax.swing.JFrame;
-
+import javax.swing.*;
+import java.awt.*;
 /**
  *
  * @author LAB03
@@ -14,15 +13,6 @@ import javax.swing.JFrame;
 public class conexionBD3 
 {
     
-public static void main(String[] args)
-    {
-       
-        interfaz w = new interfaz();
-        w.setVisible(true);
-        w.setBounds(0, 0, 400, 400);
-        w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    }
-
 
 
 
