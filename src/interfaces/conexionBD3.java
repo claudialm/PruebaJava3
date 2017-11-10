@@ -6,13 +6,67 @@
 package interfaces;
 import javax.swing.*;
 import java.awt.*;
+
+import bd.conexionBD3;
+import java.sql.Connection;
+import java.awt.event.*;
 /**
  *
  * @author LAB03
  */
-public class conexionBD3 
+public class conexionBD3 extends JFrame
 {
+    JPanel panel;
+    JLabel label;
+    JTextField text;
+    JButton boton;
+    JButton boton2;
+
+    conexionBD3 con;
+
+     public Interfaz()
+    {
+        panel = new JPanel();
+        label = new JLabel();
+        text = new JTextField(20);
+        boton = new JButton();
+        boton2 = new JButton();
+        
+        this.add(panel);
+        panel.add(label);
+        panel.add(text);
+        panel.add(boton);
+        panel.add(boton2);
+        
+        label.setText("Atributo");
+        boton.setText("Conectar");
+        boton2.setText("Desconectar");
+        panel.setBackground(Color.blue);
     
+       //PASO 16 - AGREGAMOS ESCUCHADORES AL BOTON
+        boton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent evt)
+            {
+              con = new conexionBD3();
+              Connection reg = con.conectar();
+            }
+        });
+        
+        boton2.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent evt)
+            {
+               con.desconectar();
+            }
+        });
+
+
+
+    }
+
+
+
 
 
 
