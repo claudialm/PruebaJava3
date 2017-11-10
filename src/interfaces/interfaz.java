@@ -8,9 +8,12 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- *
+/*******************************************************************************
+ *Claudia Veas M.
  * @author LAB03
+ * Fecha: Noviembre 10 de 2017
+ * Programa: PruebaJava3
+ * Responsabilidad: Clase Principal
  */
 public class interfaz 
 {

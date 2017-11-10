@@ -10,9 +10,12 @@ import java.awt.*;
 import interfaces.conexionBD3;
 import java.sql.Connection;
 import java.awt.event.*;
-/**
- *
+/*******************************************************************************
+ *Claudia Veas M.
  * @author LAB03
+ * Fecha: Noviembre 10 de 2017
+ * Programa: PruebaJava3
+ * Responsabilidad: Clase Principal
  */
 public class conexionBD3 extends JFrame
 {
